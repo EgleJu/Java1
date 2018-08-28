@@ -83,6 +83,38 @@ public class UzdaviniaiKintamieji {
           }
         }
 
+// 1) Suraskite duotame intervale visus pirminius skaičius ir juos atspausdinkite
+
+      int j = 0;
+    int num = 0;
+
+    String pirminiaiSkaiciai = "";
+
+    for (j = 1; j <= 50; j++) {
+      int skaitiklis = 0;
+      for (num = j; num >= 1; num--) {
+        if (j % num == 0) {
+          skaitiklis = skaitiklis + 1;
+        }
+
+      }
+      if (skaitiklis == 2) {
+        pirminiaiSkaiciai = pirminiaiSkaiciai + j + " ";
+      }
+    }
+    System.out.println("Pirminiai skaiciai nuo 1 iki 50 yra : ");
+    System.out.println(pirminiaiSkaiciai);
+
+    // Parašykite programą, kuri mokėtų suapvalinti
+    // double tipo skaičius pagal nurodytą tikslumą.
+    // Panaudokite matematinę funkciją Math.floor(…).
+
+    double x = 1234.69;
+    double y = -497.99;
+
+    System.out.println("Math.floor(" + x + ")=" + Math.floor(x * 10.0 + 0.5)/10.0);
+    System.out.println("Math.floor(" + y + ")=" + Math.floor(y));
+    System.out.println("Math.floor(0)="+ Math.floor(0));
 
   }
 }
