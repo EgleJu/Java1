@@ -85,6 +85,7 @@ public class UzdaviniaiKintamieji {
 
 // 1) Suraskite duotame intervale visus pirminius skaičius ir juos atspausdinkite
 
+
       int j = 0;
     int num = 0;
 
@@ -115,6 +116,15 @@ public class UzdaviniaiKintamieji {
     System.out.println("Math.floor(" + x + ")=" + Math.floor(x * 10.0 + 0.5)/10.0);
     System.out.println("Math.floor(" + y + ")=" + Math.floor(y));
     System.out.println("Math.floor(0)="+ Math.floor(0));
+    System.out.println("Math.floor(52.366)="+ Math.floor(52.366 * 100.0 + 0.5)/100.0);
+    System.out.println("Math.floor(5697.10)="+ Math.floor(5697.10 * 10.0 + 0.5)/10.0);
+    System.out.println("Math.floor(999.061)="+ Math.floor(999.061 * 100.0 + 0.5)/100.0);
+
+
+
+
+
 
   }
+
 }
