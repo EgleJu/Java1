@@ -8,6 +8,7 @@ public class PratimasPaskaitos {
       class Zmogus {
         String vardas;
         String pavarde;
+        int[] trimestras;
 
 
     Zmogus(String v, String p) {
@@ -44,37 +45,98 @@ public class PratimasPaskaitos {
           }
         }
       }
-      System.out.println("Sulygiuoti");
-      for (Zmogus z : zmones) {
-      System.out.println(z.vardas + " " + z.pavarde);
-    }
+//      System.out.println("Sulygiuoti");
+//      for (Zmogus z : zmones) {
+//      System.out.println(z.vardas + " " + z.pavarde);
+//    }
 
 
-    class Mokinys {
-      String vardas;
-      String pavarde;
-      String klase;
+//    class Mokinys {
+//      String vardas;
+//      String pavarde;
+//      int klase;
+//
+//
+//      Mokinys(String v, String p, int k) {
+//        vardas = v;
+//        pavarde = p;
+//        this.klase = k;
+//      }
+//    }
+//
+//    Mokinys[] mokiniai = new Mokinys[] {
+//            new Mokinys("Ona", "Kazlauskaite", 10),
+//            new Mokinys("Ana", "Vladaite", 5),
+//            new Mokinys("Jonas", "Antanaitis", 6),
+//            new Mokinys("Petriukas", "Kukaitis", 9),
+//            new Mokinys("Stasiukas", "Kukaitis", 9 ),
+//            new Mokinys("Stasiukas", "Antanaitis", 4 ),
+//            new Mokinys("Maryte", "Kazlauskaite", 10 ),
+//
+//    };
+//
+//    // TODO: cia reikes surusiuoti
+//
+//    for (int i = 0; i < mokiniai.length - 1; i++) {
+//
+//      for (int j = i + 1; j < mokiniai.length; j++) {
+//        Mokinys iMokinys = mokiniai[i];
+//        Mokinys jMokinys = mokiniai[j];
+//        if (mokiniai[i].klase > mokiniai[j].klase) {
+//          Mokinys y = mokiniai[i];
+//          mokiniai[i] = mokiniai[j];
+//          mokiniai[j] = y;
+//        } else if (mokiniai[i].klase < mokiniai[j].klase) {
+//          //nieko nedarom
+//        } else if (mokiniai[i].pavarde.compareTo(mokiniai[j].pavarde) > 0) {
+//          Mokinys y = mokiniai[i];
+//          mokiniai[i] = mokiniai[j];
+//          mokiniai[j] = y;
+//        } else if (mokiniai[i].pavarde.compareTo(mokiniai[j].pavarde) < 0) {
+//          { else if (mokiniai[i].vardas.compareTo(mokiniai[j].vardas) > 0) {
+//            Mokinys y = mokiniai[i];
+//            mokiniai[i] = mokiniai[j];
+//            mokiniai[j] = y;
+//          }
+//          if (mokiniai[i].klase > mokiniai[j].klase ||
+//                  mokiniai[i].klase == mokiniai[j].klase &&
+//                          mokiniai[i].pavarde.compareTo(mokiniai[j].pavarde) > 0 ||
+//                  mokiniai[i].klase == mokiniai[j].klase &&
+//                          mokiniai[i].pavarde.compareTo(mokiniai[j].pavarde) == 0 ||
+//                          mokiniai[i].vardas.compareTo(mokiniai[j].vardas) > 0
+//          ) {
+//            Mokinys y = mokiniai[i];
+//            mokiniai[i] = mokiniai[j];
+//            mokiniai[j] = y;
+//          }
+//          }
+//      }
+//    }
+
+//    System.out.println("Mokinių sąrašas: ");
+//      for (Mokinys m : mokiniai) {
+//        System.out.println(m.klase + " " + m.pavarde + " " + m.vardas);
+//      }
 
 
-      Mokinys(String v, String p, String k) {
-        vardas = v;
-        pavarde = p;
-        klase = k;
-      }
-    }
 
-    Mokinys[] mokiniai = new Mokinys[] {
-            new Mokinys("Ona", "Kazlauskaite", "10"),
-            new Mokinys("Ana", "Vladaite", "5"),
-            new Mokinys("Jonas", "Antanaitis", "6"),
-            new Mokinys("Petriukas", "Kukaitis", "9"),
-            new Mokinys("Stasiukas", "Kukaitis", "4" ),
 
-    };
+//    for (int i = 0; i < mokiniai.length - 2; i++) {
+//
+//      for (int j = i + 1; j < mokiniai.length; j++) {
+//        Mokinys iMokinys = mokiniai[i];
+//        Mokinys jMokinys = mokiniai[j];
+//        if (iMokinys.pavarde.compareTo(jMokinys.pavarde) > 0 ) {
+//          Mokinys y = mokiniai[i];
+//          mokiniai[i] = mokiniai[j];
+//          mokiniai[j] = y;
+//        }
+//      }
+//    }
+//    System.out.println("Pagal klase ir pavarde sulygiuota: ");
+//    for (Mokinys m : mokiniai) {
+//      System.out.println(m.klase + " " + m.pavarde + " " + m.vardas);
+//    }
 
-    System.out.println("Mokinių sąrašas: ");
-      for (Mokinys m : mokiniai) {
-        System.out.println(m.vardas + " " + m.pavarde + " " + m.klase);
-      }
   }
 }

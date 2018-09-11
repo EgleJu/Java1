@@ -121,9 +121,22 @@ public class UzdaviniaiKintamieji {
     System.out.println("Math.floor(999.061)="+ Math.floor(999.061 * 100.0 + 0.5)/100.0);
 
 
-
-
-
+//  Mokinys mokinys = new Mokinys ()
+//
+//
+//    public Mokinys(String name, int[] a) {
+//      this.name = name;
+//      this.a = a;
+//    }
+//
+//    double vidurkis() {
+//      if (a == null) return 0;
+//      int sum = 0;
+//      for (int p : a) {
+//        sum += p;
+//      }
+//      return Math.round((double)sum/a.length * 100.0);/100.0;
+//    }
 
   }
 
