@@ -2,25 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3818fa04-5df4-4145-9e40-6d2fe3a403c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/P05/Mokiniai/MokiniaiUzdavinys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P06/Turnyras/MokiniuTurnyras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P08/Figura/Apskritimas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P08/Figura/Figura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P08/Figura/Kvadratas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P08/Figura/LygiakrastisTrikampis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P08/Figura/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P08/Figura/Trikampis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P09/Mokejimas/Darbuotojas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P09/Mokejimas/Klientas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P09/Mokejimas/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P09/Mokejimas/Mokejimai.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P10/UzdavinysPVM/Kontrolinis01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P10/UzdavinysPVM/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P10/UzdavinysPVM/Prekes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P11/Collections/Zodyno/Kolekcija.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P11/Collections/Zodyno/Destytojo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P11/Collections/Zodyno/Destytojo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P12/Collections/Employee/Darbuotojai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P12/Collections/Employee/Demo3/AnoniminesKlases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P12/Collections/Employee/Demo3/AnoniminesKlases2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P12/Collections/Employee/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P12/Collections/Employee/Uzd/SvorisTurisSpalva/Demo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P12/Collections/Employee/Uzdavinys/MainUzduotis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P13/Iteratorius/Automobiliai/Uzdavinys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P13/Iteratorius/Demo1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PratimasPaskaitos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PratimasPaskaitos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UzdaviniaiKintamieji.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UzdaviniaiKintamieji.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P11/Collections/Zodyno/Kolekcija.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P11/Collections/Zodyno/Kolekcija.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,16 +26,17 @@
     <session id="17194981">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="27" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.2" value="3" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.2" value="5" />
+          <entry key="project.open.time.3" value="4" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.54" value="2" />
           <entry key="project.open.time.59" value="1" />
@@ -50,75 +44,95 @@
           <entry key="project.open.time.64" value="1" />
           <entry key="project.open.time.72" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="90" />
+          <entry key="java" value="104" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="90" />
+          <entry key="JAVA" value="104" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="27" />
-          <entry key="java" value="16306" />
+          <entry key="dummy" value="54" />
+          <entry key="java" value="21747" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="16306" />
-          <entry key="PLAIN_TEXT" value="27" />
+          <entry key="JAVA" value="21747" />
+          <entry key="PLAIN_TEXT" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.spring.boot.mvc.usages" />
       <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/P09/Mokejimas/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/P12/Collections/Employee/Uzdavinys/MainUzduotis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/P09/Mokejimas/Mokejimai.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/P10/UzdavinysPVM/Prekes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="1360">
+              <caret line="77" column="12" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#896#897#0" expanded="true" />
+                <element signature="e#971#972#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/P12/Collections/Employee/Darbuotojai.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/P12/Collections/Employee/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="21" column="92" selection-start-line="21" selection-start-column="92" selection-end-line="21" selection-end-column="92" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/P12/Collections/Employee/Uzd/SvorisTurisSpalva/Demo5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#981#982#0" expanded="true" />
+                <element signature="e#1027#1028#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/P11/Collections/Zodyno/Kolekcija.java">
+        <entry file="file://$PROJECT_DIR$/src/P13/Iteratorius/Automobiliai/Uzdavinys.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="400">
+              <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,55 +141,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/P10/UzdavinysPVM/Kontrolinis01.java">
+        <entry file="file://$PROJECT_DIR$/src/P13/Iteratorius/Demo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            <state relative-caret-position="180">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1019#1020#0" expanded="true" />
+                <element signature="e#1054#1055#0" expanded="true" />
+                <element signature="e#1843#1844#0" expanded="true" />
+                <element signature="e#1908#1909#0" expanded="true" />
+                <element signature="e#1969#1970#0" expanded="true" />
+                <element signature="e#2007#2008#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/P05/Mokiniai/MokiniaiUzdavinys.java">
+        <entry file="file://$PROJECT_DIR$/src/P12/Collections/Employee/Demo3/AnoniminesKlases2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1240">
-              <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
+            <state relative-caret-position="740">
+              <caret line="43" column="72" selection-start-line="43" selection-start-column="68" selection-end-line="43" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UzdaviniaiKintamieji.java">
+        <entry file="file://$PROJECT_DIR$/src/P12/Collections/Employee/Demo3/AnoniminesKlases.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/P10/UzdavinysPVM/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/P09/Mokejimas/Klientas.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/P09/Mokejimas/Darbuotojas.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+            <state relative-caret-position="1440">
+              <caret line="80" column="8" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -185,6 +184,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -227,7 +227,22 @@
         <option value="$PROJECT_DIR$/src/P10/UzdavinysPVM/Main.java" />
         <option value="$PROJECT_DIR$/src/P10/UzdavinysPVM/Kontrolinis01.java" />
         <option value="$PROJECT_DIR$/src/P10/UzdavinysPVM/Prekes.java" />
+        <option value="$PROJECT_DIR$/src/P11/Collections/Zodyno/Destytojo1.java" />
+        <option value="$PROJECT_DIR$/src/P11/Collections/Zodyno/Destytojo2.java" />
         <option value="$PROJECT_DIR$/src/P11/Collections/Zodyno/Kolekcija.java" />
+        <option value="$PROJECT_DIR$/src/P12/Collections/Employee/Main.java" />
+        <option value="$PROJECT_DIR$/src/P12/Collections/Employee/Demo3/AnoniminesKlases.java" />
+        <option value="$PROJECT_DIR$/src/P12/Collections/Employee/Demo3/AnoniminesKlases3.java" />
+        <option value="$PROJECT_DIR$/src/P12/Collections/Employee/Darbuotojai.java" />
+        <option value="$PROJECT_DIR$/src/P12/Collections/Employee/Uzdavinys/Uzdavinys.java" />
+        <option value="$PROJECT_DIR$/src/P12/Collections/Employee/Demo3/AnoniminesKlases2.java" />
+        <option value="$PROJECT_DIR$/src/P12/Collections/Employee/Uzdavinys/Main.java" />
+        <option value="$PROJECT_DIR$/src/P12/Collections/Employee/Demo3/DestytojoAnonKlasesUzduotis.java" />
+        <option value="$PROJECT_DIR$/src/P12/Collections/Employee/Uzdavinys/DarbuotojuAtlyginimai.java" />
+        <option value="$PROJECT_DIR$/src/P12/Collections/Employee/Uzdavinys/MainUzduotis.java" />
+        <option value="$PROJECT_DIR$/src/P13/Iteratorius/Demo1.java" />
+        <option value="$PROJECT_DIR$/src/P12/Collections/Employee/Uzd/SvorisTurisSpalva/Demo5.java" />
+        <option value="$PROJECT_DIR$/src/P13/Iteratorius/Automobiliai/Uzdavinys.java" />
       </list>
     </option>
   </component>
@@ -243,10 +258,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1005" />
-    <option name="y" value="10" />
-    <option name="width" value="1005" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="822" />
+    <option name="y" value="26" />
+    <option name="width" value="1249" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
@@ -255,6 +270,8 @@
     </navigator>
     <panes>
       <pane id="Course" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -272,27 +289,19 @@
               <item name="JavaPirmas" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="UzdavinysPVM" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaPirmas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Zodyno" type="462c0819:PsiDirectoryNode" />
+              <item name="Iteratorius" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536612662277" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-1-0723" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537216967131" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -310,13 +319,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Kontrolinis01">
-    <configuration name="Kontrolinis01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P10.UzdavinysPVM.Kontrolinis01" />
+  <component name="RunManager" selected="Application.Demo5">
+    <configuration name="AnoniminesKlases2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P12.Collections.Employee.Demo3.AnoniminesKlases2" />
       <module name="Java1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="P10.UzdavinysPVM.*" />
+          <option name="PATTERN" value="P12.Collections.Employee.Demo3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P13.Iteratorius.Demo1" />
+      <module name="Java1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="P13.Iteratorius.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P12.Collections.Employee.Uzd.SvorisTurisSpalva.Demo5" />
+      <module name="Java1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="P12.Collections.Employee.Uzd.SvorisTurisSpalva.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -325,11 +360,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P10.UzdavinysPVM.Main" />
+      <option name="MAIN_CLASS_NAME" value="P12.Collections.Employee.Uzdavinys.Main" />
       <module name="Java1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="P10.UzdavinysPVM.*" />
+          <option name="PATTERN" value="P12.Collections.Employee.Uzdavinys.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -337,32 +372,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MokiniaiUzdavinys (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P05.Mokiniai.MokiniaiUzdavinys" />
+    <configuration name="MainUzduotis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P12.Collections.Employee.Uzdavinys.MainUzduotis" />
       <module name="Java1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="P05.Mokiniai.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MokiniaiUzdavinys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MokiniaiUzdavinys" />
-      <module name="Java1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MokiniuTurnyras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P06.Turnyras.MokiniuTurnyras" />
-      <module name="Java1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="P06.Turnyras.*" />
+          <option name="PATTERN" value="P12.Collections.Employee.Uzdavinys.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -371,19 +386,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MokiniaiUzdavinys" />
-      <item itemvalue="Application.MokiniuTurnyras" />
-      <item itemvalue="Application.MokiniaiUzdavinys (1)" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Kontrolinis01" />
+      <item itemvalue="Application.AnoniminesKlases2" />
+      <item itemvalue="Application.MainUzduotis" />
+      <item itemvalue="Application.Demo5" />
+      <item itemvalue="Application.Demo1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Kontrolinis01" />
+        <item itemvalue="Application.Demo5" />
+        <item itemvalue="Application.Demo1" />
+        <item itemvalue="Application.MainUzduotis" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MokiniaiUzdavinys (1)" />
-        <item itemvalue="Application.MokiniuTurnyras" />
-        <item itemvalue="Application.MokiniaiUzdavinys" />
+        <item itemvalue="Application.AnoniminesKlases2" />
       </list>
     </recent_temporary>
   </component>
@@ -418,7 +433,13 @@
       <workItem from="1536305757185" duration="12677000" />
       <workItem from="1536565379545" duration="9991000" />
       <workItem from="1536606817099" duration="2829000" />
-      <workItem from="1536651761514" duration="252000" />
+      <workItem from="1536651761514" duration="11660000" />
+      <workItem from="1536737842647" duration="11453000" />
+      <workItem from="1536822622511" duration="8796000" />
+      <workItem from="1536909228110" duration="7992000" />
+      <workItem from="1537170099715" duration="11066000" />
+      <workItem from="1537188177296" duration="3619000" />
+      <workItem from="1537204636772" duration="4102000" />
     </task>
     <servers />
   </component>
@@ -428,12 +449,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154150000" />
+    <option name="totallyTimeSpent" value="212586000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14228188" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33557048" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -441,8 +463,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.31759655" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.27053824" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -464,7 +486,7 @@
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.3295302" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3295302" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21006711" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -472,8 +494,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.31759655" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.26912183" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -600,55 +622,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/P09/Mokejimas/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P09/Mokejimas/Mokejimai.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P10/UzdavinysPVM/Prekes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/P10/UzdavinysPVM/Kontrolinis01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P05/Mokiniai/MokiniaiUzdavinys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1240">
-          <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UzdaviniaiKintamieji.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/P10/UzdavinysPVM/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -666,10 +643,149 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/P05/Mokiniai/MokiniaiUzdavinys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UzdaviniaiKintamieji.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P09/Mokejimas/Mokejimai.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P09/Mokejimas/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P10/UzdavinysPVM/Prekes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P10/UzdavinysPVM/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/P11/Collections/Zodyno/Kolekcija.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="540">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P11/Collections/Zodyno/Destytojo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P11/Collections/Zodyno/Destytojo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P12/Collections/Employee/Demo3/DestytojoAnonKlasesUzduotis.java" />
+    <entry file="file://$PROJECT_DIR$/src/P12/Collections/Employee/Uzdavinys/DarbuotojuAtlyginimai.java" />
+    <entry file="file://$PROJECT_DIR$/src/P12/Collections/Employee/Uzdavinys/MainUzduotis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="77" column="12" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P12/Collections/Employee/Darbuotojai.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P12/Collections/Employee/Demo3/AnoniminesKlases2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="43" column="72" selection-start-line="43" selection-start-column="68" selection-end-line="43" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P12/Collections/Employee/Demo3/AnoniminesKlases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="80" column="8" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P13/Iteratorius/Demo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
+            <element signature="e#1843#1844#0" expanded="true" />
+            <element signature="e#1908#1909#0" expanded="true" />
+            <element signature="e#1969#1970#0" expanded="true" />
+            <element signature="e#2007#2008#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P12/Collections/Employee/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="92" selection-start-line="21" selection-start-column="92" selection-end-line="21" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P12/Collections/Employee/Uzd/SvorisTurisSpalva/Demo5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P13/Iteratorius/Automobiliai/Uzdavinys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -3,20 +3,11 @@ package P11.Collections.Zodyno;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
+import java.util.TreeMap;
 
 public class Kolekcija {
 
   public static void main(String[] args) {
-
-//    Sukurkite žodyno tipo kolekciją saugoti žmonių klasės objektus
-//    (su tokiais laukais: vardas, pavardė, asmens kodas), o kaip
-//    raktą naudokite asmens kodą.
-//    Įdėkite keletą žmonių į kolekciją ir atspausdinkite žmones
-//    asmens kodo didėjimo tvarka.
-//    Pabandykite įdėti į kolekciją du skirtingus žmones bet su tuo
-//    pačiu asmens kodu. Patikrinkite kas atsitiks?
-//            Pagalvokite kaip saugoti žmones jei norime turėti kelis su tuo
-//    pačiu asmens kodu.
 
 
     class Zmogus {
@@ -31,23 +22,34 @@ public class Kolekcija {
       }
     }
 
-    Zmogus z1 = new Zmogus ("Petras", "Jonaitis", 37894561448L);
-    Zmogus z2 = new Zmogus ("Jonas", "Jonaitis", 37123561278L);
-    Zmogus z3 = new Zmogus ("Antanas", "Jonaitis", 37878961245L);
-    Zmogus z4 = new Zmogus ("Juozas", "Jonaitis", 38524561248L);
-    Zmogus z5 = new Zmogus ("Vytautas", "Jonaitis", 31594561275L);
+    Zmogus z1 = new Zmogus("Petras", "Jonaitis", 37894561448L);
+    Zmogus z2 = new Zmogus("Jonas", "Jonaitis", 37123561278L);
+    Zmogus z3 = new Zmogus("Antanas", "Jonaitis", 37878961245L);
+    Zmogus z4 = new Zmogus("Juozas", "Jonaitis", 38524561248L);
+    Zmogus z5 = new Zmogus("Vytautas", "Jonaitis", 31594561275L);
 
 
-    Map<Long, Zmogus> map = new HashMap<>();
+    Map<Long, String> unsortmap = new HashMap<>();
 
-    map.put(37894561448L, z1);
-    map.put(37123561278L, z2);
-    map.put(37878961245L, z3);
-    map.put(38524561248L, z4);
-    map.put(31594561275L, z5);
-
-
+    unsortmap.put(37894561448L, "Petras");
+    unsortmap.put(37123561278L, "Jonas");
+    unsortmap.put(37878961245L, "Antanas");
+    unsortmap.put(38524561248L, "Juozas");
+    unsortmap.put(31594561275L, "Vytautas");
 
 
+    System.out.println("Neišrikiuotas sąrašas: ");
+    for (Map.Entry<Long, String> surikiuojam : unsortmap.entrySet()) {
+      System.out.println("Asmens kodas: " + surikiuojam.getKey() + " Asmuo: " + surikiuojam.getValue());
+    }
+
+    System.out.println("Išrikiuotas sąrašas pagal a.k. : ");
+    Map<Long, String> TreeMap = new TreeMap<Long, String>(unsortmap);{
+      for (Map.Entry<Long, String> surikiuojam : TreeMap.entrySet()) {
+        System.out.println("Asmens kodas: " + surikiuojam.getKey() + " Asmuo: " + surikiuojam.getValue());
+      }
+      }
+
+
+    }
   }
-}
